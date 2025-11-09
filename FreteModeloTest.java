@@ -84,6 +84,7 @@ class FreteModeloTest {
         assertTrue(c.validoEm(dataValidade));
     }
 
+
     @Test
     void freteresultado_getters_toString() {
         FreteResultado f1 = new FreteResultado(new BigDecimal("20.00"), 5);
